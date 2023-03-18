@@ -1,0 +1,20 @@
+SELECT top 5 * 
+FROM EmployeeDemographics
+
+SELECT DISTINCT(EmployeeId) 
+FROM EmployeeDemographics
+
+SELECT COUNT(DISTINCT((gender))) 
+FROM EmployeeDemographics
+
+SELECT salary AS Compensation 
+FROM EmployeeSalary
+
+SELECT MAX(salary) 
+FROM EmployeeSalary
+
+SELECT MIN(salary) 
+FROM EmployeeSalary
+
+SELECT AVG(salary) 
+FROM EmployeeSalary
