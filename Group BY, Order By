@@ -1,0 +1,8 @@
+SELECT *
+FROM EmployeeDemographics 
+Order By Age
+
+
+SELECT Count(EmployeeID) AS CountByGender
+FROM EmployeeDemographics 
+GROUP BY Gender
