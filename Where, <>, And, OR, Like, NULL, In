@@ -1,0 +1,36 @@
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE Age >= 30
+
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE Age >= 30 AND Gender = 'Male'
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE Age >= 32 Or Gender = 'Male'
+
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE LastName LIKE 'S%'
+
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE LastName LIKE 'S%o%'
+
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE LastName is NULL
+
+
+SELECT FirstName, LastName, Age
+FROM EmployeeDemographics 
+WHERE LastName is NOT NULL
+
+SELECT *
+FROM EmployeeDemographics 
+WHERE LastName IN ('Halpert', 'Scott')
